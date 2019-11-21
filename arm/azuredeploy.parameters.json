@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "functionAppName": {
+            "value": "Test1JGSJGFS"
+        },
+        "runtimeStack": {
+            "value": "powershell"
+        },
+        "timezone": {
+            "value": "UTC"
+        },
+        "keyVaultSecretGraphClientSecretName": {
+            "value": "GraphClientSecret"
+        },
+        "keyVaultSecretGraphClientSecretValue": {
+            "value": "xxxx"
+        },
+        "keyVaultSecretGraphTokenForecastName": {
+            "value": "GraphTokenForecast"
+        },
+        "keyVaultSecretGraphTokenForecastValue": {
+            "value": "xxxxxx"
+        },
+        "GraphAADTenant": {
+            "value": "runbookguru.onmicrosoft.com"
+        },
+        "GraphClientId": {
+            "value": "826981ae-f5c1-4f36-a6ac-c02aa357a8cf"
+        },
+        "GraphForecastAccountId": {
+            "value": "1185261"
+        }
+    }
+}
